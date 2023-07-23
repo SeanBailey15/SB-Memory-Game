@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #666666;
+  background-image: url("imgs/sunset-backup.png");
+  background-size: 100% 100%;
+  margin: auto;
+}
+
+.tiles {
+  margin: 48px auto;
+  width: max-content;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 16px;
+}
+
+.tile {
+  height: 100px;
+  background: #111111;
+  border: 5px solid #444444;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 5rem;
+  font-weight: bolder;
+  text-align: center;
+  color: goldenrod;
+}
